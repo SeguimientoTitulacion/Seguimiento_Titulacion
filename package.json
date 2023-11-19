@@ -1,7 +1,7 @@
 {
   "name": "seguimiento-titulacion",
   "private": true,
-  "homepage": "https://SeguimientoTitulacion.github.io/degree-titles-main/build",
+  "homepage": "https://seguimientotitulacion.github.io/Seguimiento_Titulacion/build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
