@@ -1,0 +1,5 @@
+* {
+  background: conic-gradient(red 50%, blue 0 100%);
+}
+
+gradient = "conic-gradient(black 0 %100, black 0 %100, black 0 %100)";

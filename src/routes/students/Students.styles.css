@@ -1,0 +1,110 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.contaierIconMessage {
+  position: absolute;
+  cursor: pointer;
+  top: 3rem;
+  right: -2rem;
+  stroke-width: 1px;
+  background: #d3f9d8;
+  border-radius: 50%;
+  padding: 1.3rem;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.2);
+}
+
+.contaierIconMessage--request {
+  position: absolute;
+  cursor: pointer;
+  top: 3rem;
+  right: 6rem;
+  stroke-width: 1px;
+  background: #d3f9d8;
+  border-radius: 50%;
+  padding: 1.3rem;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.2);
+}
+
+.iconMessageNum {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #c92a2a;
+  border-radius: 50%;
+  padding: 4px 10px;
+
+  position: absolute;
+  top: -0.5rem;
+  right: -1rem;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 2.4rem 12rem;
+}
+
+.options__filters {
+}
+
+.options__filters h3 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.8em;
+  padding-bottom: 1em;
+  padding-top: 1.5em;
+  color: #087f5b;
+  font-size: 24px;
+}
+
+.options__filters #careerFilter {
+  width: 15rem;
+}
+
+.options__container {
+  display: flex;
+  gap: 5rem;
+}
+
+.options__container label {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.options__group {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.3rem;
+}
+
+.options__info {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #38d9a9;
+}
+
+.options__btn {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.list-data {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow-y: scroll;
+
+  width: 90%;
+  height: 50vh;
+  padding: 2rem 3.2rem;
+  border-radius: 11px;
+  box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.08);
+}

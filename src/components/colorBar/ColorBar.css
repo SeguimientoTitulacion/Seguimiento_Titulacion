@@ -1,0 +1,44 @@
+.container {
+  background-color: #f3f0ff;
+  font-size: 1.7rem;
+  padding: 2rem 4rem 4rem 2rem;
+  border-radius: 11px;
+  box-shadow: 0px 0px 8px rgb(0, 0, 0, 0.2);
+  width: 70%;
+}
+
+.container h4 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #087f5b;
+  letter-spacing: 0.2rem;
+  padding: 1em;
+}
+
+.colorBar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.container h4{
+  font-size: larger;
+  font-weight: bold;
+}
+
+.colorBar p{
+  font-size: large;
+}
+
+.colorBarGroup {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.colorBarGroup span {
+  align-self: center;
+  padding: 10px 10px;
+  border-radius: 15px;
+}

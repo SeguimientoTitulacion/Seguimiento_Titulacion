@@ -1,0 +1,26 @@
+.list__item {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  font-size: 5rem;
+  font-weight: 100;
+  color: #fff;
+
+  padding: 2.4rem 0;
+  border-radius: 11px;
+  box-shadow: 5px 4px 5px 4px rgb(0, 0, 0, 0.5);
+}
+
+.list__item span{
+  font-size: large;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.options__checkbox {
+  transform: scale(1.5);
+  padding: 0.5rem;
+  align-self: center;
+}

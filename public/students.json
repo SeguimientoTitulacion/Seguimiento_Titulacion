@@ -1,0 +1,54 @@
+[
+  {
+    "nControl": 20251086,
+    "name": "Dylan Abner  ",
+    "lastName": "Silva",
+    "motherLastName": "Araujo",
+    "email": "dyla@gmail.com",
+    "status": "initial",
+    "career": {
+      "id": "IngTecnologiasInformacionComunicaciones",
+      "name": "Ingeniería en Tecnologías de la Información y Comunicaciones",
+      "shortName": "ITICs"
+    }
+  },
+  {
+    "nControl": 20251346,
+    "name": "Lopez  ",
+    "lastName": "Dominguez",
+    "motherLastName": "Diego",
+    "email": "lopez@gmail.com",
+    "status": "secondary",
+    "career": {
+      "id": "IngGestionEmpresarial",
+      "name": "Ingeniería en Gestión Empresarial",
+      "shortName": "IGE"
+    }
+  },
+  {
+    "nControl": 20251088,
+    "name": "Marisol Frida",
+    "lastName": "Dominguez",
+    "motherLastName": "Gomez",
+    "email": "marisol@gmail.com",
+    "status": "finish",
+    "career": {
+      "id": "IngMecatronica",
+      "name": "Ingeniería Mecatrónica",
+      "shortName": "Mecatronica"
+    }
+  },
+  {
+    "nControl": 20251087,
+    "name": "Ortega",
+    "lastName": "Fernandez",
+    "motherLastName": "Raul",
+    "email": "ortega@gmail.com",
+    "status": "secondary",
+    "career": {
+      "id": "ingElectrica",
+      "name": "Ingeniería Eléctrica",
+      "shortName": "Eléctrica"
+    }
+  }
+]

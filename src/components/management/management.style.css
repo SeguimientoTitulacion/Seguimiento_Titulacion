@@ -1,0 +1,12 @@
+.management {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebfbee;
+
+  width: 100%;
+  margin: 2rem 0;
+  padding-bottom: 4rem;
+  border-radius: 11px;
+  box-shadow: 2px 2px 5px 4px rgb(0, 0, 0, 0.05);
+}

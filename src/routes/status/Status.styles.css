@@ -1,0 +1,238 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.contaierIconMessage {
+  position: absolute;
+  cursor: pointer;
+  top: 3rem;
+  right: -2rem;
+  stroke-width: 1px;
+  background: #d3f9d8;
+  border-radius: 50%;
+  padding: 1.3rem;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.2);
+}
+
+.contaierIconMessage--request {
+  position: absolute;
+  cursor: pointer;
+  top: 3rem;
+  right: 6rem;
+  stroke-width: 1px;
+  background: #d3f9d8;
+  border-radius: 50%;
+  padding: 1.3rem;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.2);
+}
+
+.iconMessageNum {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #c92a2a;
+  border-radius: 50%;
+  padding: 4px 10px;
+
+  position: absolute;
+  top: -0.5rem;
+  right: -1rem;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 2.4rem 12rem;
+}
+
+.options__filters {
+}
+
+.options__filters h3 {
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 0.8em;
+  color: #087f5b;
+}
+
+.options__filters #careerFilter {
+  width: 15rem;
+}
+
+.options__container {
+  display: flex;
+  gap: 5rem;
+}
+
+.options__container label {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.options__group {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.3rem;
+}
+
+.options__info {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #38d9a9;
+}
+
+.options__btn {
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  gap: 20rem;
+}
+
+.list-data {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow-y: scroll;
+
+  width: 90%;
+  height: 50vh;
+  padding: 2rem 3.2rem;
+  border-radius: 11px;
+  box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.08);
+}
+
+.options_estatus {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding: 2.4rem 12rem;
+}
+
+
+.options__estatus_filters {
+}
+
+.options__estatus_filters h3 {
+  font-weight: 700;
+  text-align:center;
+  margin: 1em;
+  padding-bottom: 1em;
+  color: #a61e4d;
+  font-size: 24px;
+}
+
+.options__estatus_filters #careerFilter {
+  width: 15rem;
+}
+
+.options__estatus_container {
+  display: flex;
+  gap: 5rem;
+}
+
+.options__estatus_container label {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.options__estatus_group {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.3rem;
+}
+
+.options__estatus_info {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #b3d938;
+}
+
+.options__estatus_btn {
+  display: flex;
+  gap: 20rem;
+}
+
+.select_style {
+  margin-left: 2em; 
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #087f5b;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+/* Estilos para las opciones del select */
+.select_style option {
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Estilo para la opción seleccionada */
+.select_style option:checked {
+  background-color: #d4fadb ;
+  color: #555;
+  font-size: 18px;
+}
+
+.select_status_style {
+  margin-left: 2em; 
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #087f5b;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+/* Estilos para las opciones del select */
+.select_status_style option {
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Estilo para la opción seleccionada */
+.select_status_style option:checked {
+  background-color: #d4fadb ;
+  color: #555;
+  font-size: 18px;
+}
+
+.select_status_style_upd {
+  margin-left: 2em; 
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #087f5b;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+/* Estilos para las opciones del select */
+.select_status_style_upd option {
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Estilo para la opción seleccionada */
+.select_status_style_upd option:checked {
+  background-color: #d4fadb ;
+  color: #555;
+  font-size: 18px;
+}

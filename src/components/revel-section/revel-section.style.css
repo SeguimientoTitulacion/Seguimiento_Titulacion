@@ -1,0 +1,7 @@
+.section {
+  transition: opacity 1.5s;
+}
+
+.section--hidden {
+  opacity: 0;
+}

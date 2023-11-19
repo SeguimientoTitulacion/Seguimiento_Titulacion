@@ -1,0 +1,68 @@
+.studentForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  padding: 0 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.6rem;
+}
+
+.studentForm h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.7rem;
+  /* color: #1864ab; */
+  background: linear-gradient(to right bottom, #087f5b, #a9e34b);
+  color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+  margin: 4rem 0 6rem 0;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.group label {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.group input {
+  /* border: 2px solid #6f6f6f; */
+  box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.4);
+  border-radius: 11px;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+}
+
+.group select {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #6f6f6f;
+  border-radius: 11px;
+  padding: 0.5rem;
+}
+
+.btnForm {
+  margin-top: 4rem;
+  row-gap: 2rem;
+  grid-column: 1/-1;
+  background: #2b8a3e;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.4);
+  color: #fff;
+  padding: 1.8rem;
+  border-radius: 11px;
+
+  transition: all 200ms;
+}
+
+.btnForm:hover {
+  background-color: #2f9e44;
+}
